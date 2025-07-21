@@ -48,6 +48,11 @@ const questions = [
   { text: "If your visa gets delayed or rejected, what will be your next step?", readTime: 11, answerTime: 40 }
 ];
 
+
+// Shuffle and select 6 random questions
+const shuffled = allQuestions.sort(() => 0.5 - Math.random());
+const questions = shuffled.slice(0, 6);
+
 let currentQuestion = 0;
 let mediaRecorder, recordedChunks = [], stream;
 
