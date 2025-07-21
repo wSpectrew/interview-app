@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interview Recorder</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="container">
+    <h1>Mock Interview</h1>
+    <video id="preview" autoplay muted></video>
+    <div id="questionBox"></div>
+    <div id="progressArea">
+      <div id="progressText"></div>
+      <div id="countdown">15</div>
+      <div id="progressBar"><div id="progressFill"></div></div>
+    </div>
+    <div id="controls">
+      <button id="startBtn">Start Interview</button>
+      <button id="retryBtn" style="display:none;">Retry</button>
+      <a id="downloadLink" style="display:none;" download="response.webm">Download Video</a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
