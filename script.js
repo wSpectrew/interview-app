@@ -1,4 +1,4 @@
-const questions = [
+const allQuestions = [
   // 30 Seconds Section
   { text: "What is the total tuition fee for your course? Can you provide a breakdown for the full duration?", readTime: 12, answerTime: 20 },
   { text: "How many campuses does the university have? Which campus will you be studying at?", readTime: 11, answerTime: 20 },
